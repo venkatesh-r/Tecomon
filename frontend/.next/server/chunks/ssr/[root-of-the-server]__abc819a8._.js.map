@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///E:/venkatesh/works/Nextjs/Tecomon-Aufgabe/frontend/components/Location.tsx"],"sourcesContent":["\"use Client\";\r\nimport { useState } from \"react\";\r\nconst Location = () => {\r\n  const [city, setCity] = useState<string>(\"\");\r\n  console.log(city);\r\n  return (\r\n    <div>\r\n      <input\r\n        type=\"text\"\r\n        value={city}\r\n        onChange={(e) => setCity(e.target.value)}\r\n      />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Location;\r\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAEA,MAAM,WAAW;IACf,MAAM,CAAC,MAAM,QAAQ,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAU;IACzC,QAAQ,GAAG,CAAC;IACZ,qBACE,8OAAC;kBACC,cAAA,8OAAC;YACC,MAAK;YACL,OAAO;YACP,UAAU,CAAC,IAAM,QAAQ,EAAE,MAAM,CAAC,KAAK;;;;;;;;;;;AAI/C;uCAEe","debugId":null}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":["file:///E:/venkatesh/works/Nextjs/Tecomon-Aufgabe/frontend/app/page.tsx"],"sourcesContent":["import Location from \"@/components/Location\";\n\nexport default async function Home() {\n  /*   const data = await fetch(\"http://localhost:5000/widgets\");\n  const response = await data.json();\n\n  console.log(response); */\n\n  return (\n    <div>\n      <Location />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,eAAe;IAC5B;;;yBAGuB,GAEvB,qBACE,8OAAC;kBACC,cAAA,8OAAC,uHAAA,CAAA,UAAQ;;;;;;;;;;AAGf","debugId":null}}]
+}

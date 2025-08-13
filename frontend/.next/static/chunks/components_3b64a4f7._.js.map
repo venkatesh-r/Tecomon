@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///E:/venkatesh/works/Nextjs/Tecomon-Aufgabe/frontend/components/RemoveWidget.tsx"],"sourcesContent":["import axios from \"axios\";\r\n\r\nconst RemoveWidget = ({ id }) => {\r\n  const removeWidget = async (id: number) => {\r\n    const updatedWidget = await axios.delete(\r\n      \"http://localhost:5000/widgets/\" + \"\" + id\r\n    );\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <button\r\n        className=\"bg-white text-black mt-10 mb-5 py-2 px-8 rounded-full\"\r\n        onClick={() => removeWidget(id)}\r\n      >\r\n        Delete\r\n      </button>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default RemoveWidget;\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,eAAe;QAAC,EAAE,EAAE,EAAE;IAC1B,MAAM,eAAe,OAAO;QAC1B,MAAM,gBAAgB,MAAM,wIAAA,CAAA,UAAK,CAAC,MAAM,CACtC,mCAAmC,KAAK;IAE5C;IAEA,qBACE;kBACE,cAAA,6LAAC;YACC,WAAU;YACV,SAAS,IAAM,aAAa;sBAC7B;;;;;;;AAKP;KAjBM;uCAmBS","debugId":null}}]
+}

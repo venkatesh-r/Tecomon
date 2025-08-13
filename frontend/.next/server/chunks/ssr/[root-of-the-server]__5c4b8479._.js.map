@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///E:/venkatesh/works/Nextjs/Tecomon-Aufgabe/frontend/components/Widgets.tsx"],"sourcesContent":["import City from \"./DisplayWidget\";\r\n\r\nconst Widgets = () => {\r\n  return (\r\n    <div>\r\n      <City />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Widgets;\r\n"],"names":[],"mappings":";;;;;;;;;;;AAEA,MAAM,UAAU;IACd,qBACE,8OAAC;kBACC,cAAA,8OAAC;;;;;;;;;;AAGP;uCAEe","debugId":null}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///E:/venkatesh/works/Nextjs/Tecomon-Aufgabe/frontend/app/page.tsx"],"sourcesContent":["import Location from \"@/components/Location\";\nimport Widgets from \"@/components/Widgets\";\n\nexport default function Home() {\n  return (\n    <div>\n      <Widgets />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AACA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC,sHAAA,CAAA,UAAO;;;;;;;;;;AAGd","debugId":null}}]
+}
